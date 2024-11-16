@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "696451797455",
+    "firebase_url": "https://anees-a8319-default-rtdb.firebaseio.com",
+    "project_id": "anees-a8319",
+    "storage_bucket": "anees-a8319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696451797455:android:62a735b5dbdd7ceeb842ba",
+        "android_client_info": {
+          "package_name": "com.example.anees"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696451797455-qfenudm98i3fg02thp1tb8arkqu41h3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anees",
+            "certificate_hash": "89805edba3f3e94ca9614d3492fe0cc4ebee49d0"
+          }
+        },
+        {
+          "client_id": "696451797455-mjhv7qst2o44k03pod06qrq7u9pf78l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGqw1gMPmqxe5KOGnczuEYESvB3BM-DC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696451797455-mjhv7qst2o44k03pod06qrq7u9pf78l9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696451797455-a7h256hddpvt9i294re1n2i228eabins.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.anees"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696451797455:android:b96745682c8d7568b842ba",
+        "android_client_info": {
+          "package_name": "com.example.anees_dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696451797455-mjhv7qst2o44k03pod06qrq7u9pf78l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGqw1gMPmqxe5KOGnczuEYESvB3BM-DC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696451797455-mjhv7qst2o44k03pod06qrq7u9pf78l9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696451797455-a7h256hddpvt9i294re1n2i228eabins.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.anees"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
