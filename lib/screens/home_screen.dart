@@ -379,7 +379,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 4.h,
                 ),
                 Text(
-                  "  Langauge",
+                  "  Language",
                   style: GoogleFonts.inter(
                       fontWeight: FontWeight.w500, fontSize: 13.sp),
                 ),
@@ -388,7 +388,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Txtformfield(
                   controller: langauge,
-                  text: "langauge",
+                  text: "language",
                   validator: (value) {
                     if (value == null || value.isEmpty) {
                       return "This field must not be empty";
