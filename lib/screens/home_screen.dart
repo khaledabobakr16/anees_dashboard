@@ -1,12 +1,12 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:anees_dashboard/screens/login_screen.dart';
+
 import 'package:anees_dashboard/utils/colors.dart';
 import 'package:anees_dashboard/utils/image_util.dart';
 import 'package:anees_dashboard/widgets/txtformfield.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -203,32 +203,6 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: cWhite,
-      appBar: AppBar(
-        backgroundColor: cGreen,
-        title: Text(
-          "Dashboard",
-          style: GoogleFonts.aclonica(
-              color: cWhite, fontWeight: FontWeight.bold, fontSize: 20.sp),
-        ),
-        actions: [
-          IconButton(
-              onPressed: () async {
-                await FirebaseAuth.instance.signOut();
-                Navigator.pushAndRemoveUntil(
-                  // ignore: use_build_context_synchronously
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const LoginScreen(),
-                  ),
-                  (route) => false,
-                );
-              },
-              icon: const Icon(
-                Icons.logout,
-                color: cWhite,
-              ))
-        ],
-      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
