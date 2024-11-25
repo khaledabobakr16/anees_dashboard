@@ -7,6 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../utils/colors.dart';
 import 'add_book.dart';
+import 'delete_books_screen.dart';
 import 'home_screen.dart';
 
 class Home extends StatefulWidget {
@@ -21,6 +22,7 @@ class _HomeState extends State<Home> {
   List pages = [
     const HomeScreen(),
     const AddBook(),
+    const DeleteBooksScreen(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -65,6 +67,11 @@ class _HomeState extends State<Home> {
           Icon(
             Icons.add,
             color: globalIndex == 1 ? Colors.black : Colors.white,
+            size: 28.sp,
+          ),
+          Icon(
+            Icons.delete,
+            color: globalIndex == 2 ? Colors.black : Colors.white,
             size: 28.sp,
           ),
         ],

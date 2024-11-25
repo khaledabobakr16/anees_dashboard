@@ -111,14 +111,14 @@ class _AddBookState extends State<AddBook> {
   }
 
   final List<String> _bookCategories = [
-    "Poetry",
-    "Fantacy",
+    "Fiction",
     "Business",
-    "Detective",
-    "English",
-    "Arabic",
+    "Biography",
+    "Health",
+    "Literary Criticism",
+    "Social Science",
     "History",
-    "Technology",
+    "Science",
   ];
   void selectimage() async {
     var image = await ImagePicker().pickImage(source: ImageSource.gallery);
